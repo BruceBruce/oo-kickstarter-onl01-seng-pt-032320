@@ -8,7 +8,7 @@ class Project
     @backers = []
   end
   
-  def add_backer(title)
-    magic = Project.new("Magic The Gathering Thing")
+  def add_backer(name)
+    spencer = Backer.new("Spencer")
   end
 end
