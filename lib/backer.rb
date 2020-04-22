@@ -10,5 +10,6 @@ class Backer
   
   def back_project(title)
     magic = Project.new("Magic The Gathering Thing")
+    @backed_projects << magic
   end
 end
