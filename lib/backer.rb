@@ -8,8 +8,7 @@ class Backer
     @backed_projects = []
   end
   
-  def back_project(title)
-    magic = Project.new("Magic The Gathering Thing")
-    @backed_projects << magic
+  def back_project(project)
+    @backed_projects << project
   end
 end
