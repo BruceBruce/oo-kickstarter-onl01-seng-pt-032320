@@ -9,5 +9,6 @@ class Project
   end
   
   def add_backer(title)
-    
+    magic = Project.new("Magic The Gathering Thing")
+  end
 end
